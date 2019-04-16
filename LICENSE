@@ -1,6 +1,15 @@
 MIT License
 
-Copyright (c) 2019 LabWare
+This class is based on work by
+Tim Rowledge for the MQTT Client he wrote for the Pi
+
+http://www.squeaksource.com/@Vok40xZouHIIkrzY/xMjFzu_2
+
+Modified by John M McIntosh, Corporate Smalltalk Consulting Ltd for LabWare Inc.
+
+Copyright 2017-2019 Tim Rowledge
+Copyright  2018, 2019. Corporate Smalltalk Consulting Ltd.
+Copyright  2018, 2019. LabWare Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
