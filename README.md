@@ -11,19 +11,20 @@ This product (in VSE) did pass various V311 data broker test units, after conver
 To start the server.
 (MQTTServerInterface openOnPort: 1883) start inspect.
 
+```
 To start a client.
 [(MQTTClientInterface openOnHostName: ‘192.168.1.139’ port: 1883 keepAlive: 300) start inspect] fork.
 or
 [(MQTTClientInterface openOnHostName: ‘test.mosquitto.org’ port: 1883 keepAlive: 300) start inspect] fork.
-
+```
 Stopping the server or the client.
-
+```
 MQTTServerInterface  allInstances do: [ :e | e stop ].
 MQTTClientInterface  allInstances do: [ :e | e stop ].
-
+```
 
 Helpful for figuring out what is running, or not, ensure you do a GC before using. 
-
+```
 MQTTSocketClient  allInstances  inspect.
 MQTTClientInterface allInstances  inspect.
 MQTTTransportLayerClient allInstances  inspect.
@@ -31,7 +32,7 @@ MQTTSocketServer  allInstances  inspect.
 MQTTServerInterface allInstances inspect.
 MQTTSocketDaemon allInstances inspect.
 MQTTTransportLayerServer allInstances inspect.
-
+```
 If you examine the class MQTTStatistics we do collect statistics on each server and client session. 
 
 LOGGING is on
