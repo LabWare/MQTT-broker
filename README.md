@@ -3,7 +3,8 @@ An implementation of a MQTT Client and a Broker in pure Smalltalk for Pharo
 
 This work is based on the work that Tim Rowledge wrote for the Pi
 The original code base is found at:
-http://www.squeaksource.com/@Vok40xZouHIIkrzY/xMjFzu_2
+
+http://www.squeaksource.com/MQTTClient.html
 
 What we did was refactor the logic into a client and server interface to support a full MQTT V311 data broker in pure Smalltalk.
 This product (in VSE) did pass various V311 data broker test units, after converting to Pharo we hope it still works.
