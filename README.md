@@ -47,12 +47,12 @@ At the moment they send QOS > 0 message info to the Transcript
 
 
 Things that the community could do? 
-
+```
 Persistent store of the data broker queued data
 Ensure it works with Pharo
 Port to VA Smalltalk
 Port to other variations. 
 Respecting userid & password in the Connect packet.
 If you need a VSE version please contact us. 
-
+```
 
