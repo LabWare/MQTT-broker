@@ -4,7 +4,7 @@
 This class is based on work by 
 Tim Rowledge for the MQTT Client he wrote for the Pi
 
-http://www.squeaksource.com/@Vok40xZouHIIkrzY/xMjFzu_2
+http://www.squeaksource.com/MQTTClient.html
 
 Modified by John M McIntosh, Corporate Smalltalk Consulting Ltd for LabWare Inc.
 Copyright 2017-2019 Tim Rowledge
